@@ -69,7 +69,7 @@ register_extendr <- function(path = ".", quiet = FALSE, force = FALSE, compile =
       cli::cli_abort(
         c(
           msg,
-          "i" = "You need to compile first, try {.code register_rextendr(compile = TRUE)}."
+          "i" = "You need to compile first, try {.code register_extendr(compile = TRUE)}."
         ),
         class = "rextendr_error"
       )
